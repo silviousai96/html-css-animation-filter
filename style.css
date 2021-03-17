@@ -124,7 +124,13 @@ transition: border-radius 2s, filter 2s ;
 /*ex 11*/
 .ex-11-icon {
     font-size: 60px;
+    animation-name: example;
+    animation-duration: 1s;    
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+/*ex 12*/
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
